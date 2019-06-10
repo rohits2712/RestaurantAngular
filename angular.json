@@ -22,11 +22,14 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
+            "styles": [              
               "src/styles.css",
-              "../Restaurant/node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "../Restaurant/node_modules/bootstrap/dist/css/bootstrap.css"
             ],
-            "scripts": []
+            "scripts": [
+              "../Restaurant/node_modules/jquery/dist/jquery.min.js",
+              "../Restaurant/node_modules/popper.js/dist/popper.js",
+              "../Restaurant/node_modules/bootstrap/dist/js/bootstrap.min.js"]
           },
           "configurations": {
             "production": {
@@ -84,9 +87,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "../Restaurant/node_modules/bootstrap/dist/css/bootstrap.css"
             ],
-            "scripts": []
+            "scripts": [
+              "../Restaurant/node_modules/jquery/dist/jquery.min.js",
+              "../Restaurant/node_modules/popper.js/dist/popper.js",
+              "../Restaurant/node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           }
         },
         "lint": {
