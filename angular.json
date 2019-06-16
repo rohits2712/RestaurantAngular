@@ -23,12 +23,13 @@
               "src/assets"
             ],
             "styles": [              
-              "src/styles.css",
-              "../Restaurant/node_modules/bootstrap/dist/css/bootstrap.css"
+              "../Restaurant/node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css"
+              
             ],
             "scripts": [
-              "../Restaurant/node_modules/jquery/dist/jquery.min.js",
-              "../Restaurant/node_modules/popper.js/dist/popper.js",
+              "../Restaurant/node_modules/jquery/dist/jquery.slim.js",
+              "../Restaurant/node_modules/popper.js/dist/umd/popper.min.js",
               "../Restaurant/node_modules/bootstrap/dist/js/bootstrap.min.js"]
           },
           "configurations": {
@@ -91,8 +92,8 @@
               "../Restaurant/node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": [
-              "../Restaurant/node_modules/jquery/dist/jquery.min.js",
-              "../Restaurant/node_modules/popper.js/dist/popper.js",
+              "../Restaurant/node_modules/jquery/dist/jquery.slim.js",
+              "../Restaurant/node_modules/popper.js/dist/umd/popper.min.js",
               "../Restaurant/node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]
           }
